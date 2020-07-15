@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1067491754489",
+    "firebase_url": "https://freelance-smartacn.firebaseio.com",
+    "project_id": "freelance-smartacn",
+    "storage_bucket": "freelance-smartacn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067491754489:android:52d7498875664b33",
+        "android_client_info": {
+          "package_name": "com.rumahdev.smartacn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067491754489-i8rkjevv2ovd404muidrmun51rthel99.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rumahdev.smartacn",
+            "certificate_hash": "abbad6cdc8a5dd5772bfb1ac69f8498282699cb2"
+          }
+        },
+        {
+          "client_id": "1067491754489-mkp9ognrfk9vp2gj4deuch492870lsr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Lgg5hmK_C9VKv9zeRFnB3fnfhf_X1q0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067491754489-mkp9ognrfk9vp2gj4deuch492870lsr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rumahdev.smartacn">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Dwi Apps"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MateriActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Materi"/>
+        <activity
+            android:name=".DetailMateriActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Detail Materi"/>
+        <activity
+            android:name=".DetailPraktikumActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Detail Materi"/>
+        <activity
+            android:name=".MulaiLatihanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MulaiPrActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".EsaiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Esai Test"/>
+
+        <activity
+        android:name=".SkorActivity"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:label="Skor"/>
+
+
+        <activity
+            android:name=".SkorEsaiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Skor"/>
+
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Login"/>
+
+        <activity
+            android:name=".DataSkor"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Skor"/>
+
+        <activity
+            android:name=".DataSkorEsai"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Skor"/>
+
+        <activity
+            android:name=".SkorPrActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Skor"/>
+
+        <activity android:name=".ListQuiz"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ListQuizScore"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".OnboardActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".FullscreenDemoActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".KompetensiActivity"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

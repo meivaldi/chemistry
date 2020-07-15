@@ -1,0 +1,131 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Dwi Apps</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="materi_satu">
+        <item>Penamaan Senyawa Ionik dari Logam Transisi</item>
+        <item>Penamaan Senyawa Ionik dari Logam Transisi</item>
+        <item>Penamaan Senyawa Ionik dari Logam Transisi</item>
+        <item>Penamaan Senyawa Ionik dari Logam Transisi</item>
+        <item>Penamaan Senyawa Ionik dari Logam Transisi</item>
+    </string-array>
+
+    <string-array name="arr_soal2">
+        <item>Nama senyawa biner berikut benar, kecuali</item>
+        <item>Nama yang benar untuk senyawa CaHPO4</item>
+    </string-array>
+
+    <string-array name="arr_soal">
+        <item>Nama senyawa biner berikut benar, kecuali</item>
+        <item>Nama yang benar untuk senyawa CaHPO4</item>
+        <item>Bila senyawa CH3COOH adalah salah satu contoh dari senyawa anorganik, nama yang tepat untuk senyawa ini adalah</item>
+        <item>Diketahui senyawa-senyawa kimia berikut ini
+1.	FeO : Besi(II) oksida
+2.	K2O : Dikalium oksida
+3.	CuO : Tembaga(I) oksida
+4.	Al2O3 : Dialuminium trioksida
+5.	CaO : Kalsium(II) oksida
+            Pasangan yang penulisan rumus kimia dengan nama senyawanya tepat adalah nomor
+</item>
+        <item>Berikut ini penamaan sistematik senyawa-senyawa kovalen biner, kecuali</item>
+
+        <item>Nama senyawa berikut yang benar adalah</item>
+        <item>Dibromin pentaoksida mempunyai rumus kimia</item>
+        <item>Diketahui reaksi sebagai berikut :
+CH3COOH(aq) + NaOH(aq) → CH3COONa(aq) + H2O(l)
+Nama senyawa reaktan dan produk berturut-turut reaksi di atas adalah
+</item>
+        <item>Senyawa poliatomik adalah</item>
+        <item>Jika tersedia ion
+Kation : NH4+ ; Al3+
+Anion : NO3- ; SO42-
+Maka rumus dan nama senyawa kimia yang benar adalah
+</item>
+
+        <item>Senyawa yang tersusun atas dua jenis unsur disebut</item>
+        <item>Bilangan oksidasi logam dari senyawa-senyawa berikut yang sesuai dengan aturan IUPAC adalah</item>
+        <item>Dari senyawa-senyawa berikut yang termasuk dalam golongan senyawa hidrokarbon adalah</item>
+        <item>Suatu senyawa tersusun dari 3 atom C dan 4 atom H, dan senyawa lainnya tersusun dari 4 atom C dan 8 atom H. Nama yang tepat untuk senyawa tersebut secara berturut adalah</item>
+        <item>Suatu senyawa yang terbentuk dari golongan alkana yang memiliki jumlah H adalah 3 dan kation OH-. Rumus kimia dan nama senyawa yang terbentuk adalah</item>
+
+        <item>Nama senyawa dari CuSO4. 5H2O adalah</item>
+        <item>Kalsium sulfat dihidrat mempunyai rumus kimia</item>
+        <item>Rumus senyawa alkena adalah</item>
+        <item>Rumus molekul dari asam klorit, asam sulfat, dan asam arsenat berturut-turut adalah</item>
+        <item>Perhatikan tabel berikut contoh dari senyawa anorganik</item>
+
+
+    </string-array>
+
+    <string name="welcome_msg">Welcome!</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="contacts_permission_rationale">Access to account information is required to sign in.</string>
+    <string name="invite_menu_label">Invite</string>
+    <string name="invitation_message">Please join me for a friendly chat</string>
+    <string name="invitation_cta">Call to action</string>
+    <string name="invitation_title">Friendly Chat Invite</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="fresh_config">Fresh Config</string>
+    <string name="cause_crash">Cause Crash</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+
+
+
+    <string name="youtube_api_demo">YouTube API Demos</string>
+
+    <string name="videowall_demo_name">Video Wall</string>
+    <string name="videolist_demo_name">Video List</string>
+    <string name="standalone_player_demo_name">Standalone Player</string>
+    <string name="playerview_demo_name">Simple PlayerView</string>
+    <string name="fragment_demo_name">Simple PlayerFragment</string>
+    <string name="player_controls_demo_name">Custom Player Controls</string>
+    <string name="action_bar_demo_name">Overlay ActionBar Demo</string>
+    <string name="fullscreen_demo_name">Custom Fullscreen Handling</string>
+    <string name="intents_demo_name">YouTube App Launcher Intents</string>
+
+    <string name="playerview_text">This is a YouTubePlayerView!</string>
+    <string name="playerfragment_text">This is a YouTubePlayerFragment!</string>
+
+    <string name="demo_select">Please select a demo:</string>
+    <string name="some_demos_disabled">* Your device is currently running Android API version <xliff:g id="current_version">%1$s</xliff:g>.</string>
+    <string name="list_item_disabled">Requires Android API version <xliff:g id="required_version">%1$s</xliff:g> or higher.</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="skip_to">Skip To</string>
+    <string name="seconds">secs</string>
+    <string name="player_style">Player Style</string>
+    <string name="def">Default</string>
+    <string name="minimal">Minimal</string>
+    <string name="chromeless">Chromeless</string>
+
+    <string name="play_video">Play video</string>
+    <string name="play_playlist">Play playlist</string>
+    <string name="play_video_list">Play video list</string>
+    <string name="start_index">Start index</string>
+    <string name="start_time">Start time (sec)</string>
+    <string name="autoplay">Autoplay</string>
+    <string name="lightbox_mode">Lightbox mode</string>
+
+    <string name="intent_select">Please select an action:</string>
+    <string name="intent_disabled">This intent is not supported with the currently installed version of YouTube.</string>
+    <string name="youtube_currently_installed">YouTube version installed on this device: <xliff:g id="youtube_version">%1$s</xliff:g>.</string>
+    <string name="youtube_not_installed">YouTube is not installed on this device.</string>
+
+    <string name="fullscreen_tutorial">Silahkan tonton materi di atas tentang Larutan Elektrolit dan Non Elektrolit.</string>
+    <string name="enter_fullscreen">Lihat Fullscreen</string>
+    <string name="landscape_fullscreen">Always fullscreen in landscape</string>
+
+    <string name="actionbar_tutorial">This is a demo which shows how to use the ActionBar as an overlay when the video is playing in fullscreen. The actionbar will automatically fade away along with the player controls when the video is being played in fullscreen. While not in fullscreen the Actionbar is visible and does not overlay any of the views.</string>
+
+    <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <string name="soal_1">1.	Apa yang dimaksud dengan larutan, larutan elektrolit dan larutan non elektrolit?</string>
+    <string name="soal_2">2.	Bagaimanakah cara menentukan apakah suatu larutan tergolong elektrolit atau nonelektrolit? Jelaskan!</string>
+    <string name="soal_3">3.	Sebutkan tiga contoh larutan elektrolit dan tiga contoh larutan nonelektrolit dalam kehidupan sehari-hari!</string>
+    <string name="soal_4">4.	Mengapa larutan elektrolit dapat menghantar listrik, sedangkan larutan nonelektrolit tidak?</string>
+    <string name="soal_5">5.	Apakah semua senyawa kovalen bersifat elektrolit? Jelaskan!</string>
+
+</resources>
