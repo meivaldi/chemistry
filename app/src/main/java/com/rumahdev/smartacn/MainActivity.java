@@ -106,8 +106,9 @@ public class MainActivity extends AppCompatActivity {
         button_pr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent main = new Intent(MainActivity.this, LoginActivity.class);
-                main.putExtra("id","pr");
+                Intent main = new Intent(MainActivity.this, DetailMateriActivity.class);
+                main.putExtra("id","contoh_soal");
+                main.putExtra("judul", "Contoh Soal");
                 startActivity(main);
             }
         });

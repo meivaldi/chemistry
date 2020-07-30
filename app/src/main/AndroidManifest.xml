@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.rumahdev.smartacn">
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,19 +25,19 @@
         </activity>
         <activity
             android:name=".MateriActivity"
+            android:label="Materi"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label="Materi"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".DetailMateriActivity"
+            android:label="Detail Materi"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label="Detail Materi"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".DetailPraktikumActivity"
+            android:label="Detail Materi"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label="Detail Materi"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MulaiLatihanActivity"
             android:screenOrientation="portrait"
@@ -44,65 +46,56 @@
             android:name=".MulaiPrActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".EsaiActivity"
+            android:label="Esai Test"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label="Esai Test"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
-        android:name=".SkorActivity"
-        android:screenOrientation="portrait"
-        android:theme="@style/AppTheme.NoActionBar"
-        android:label="Skor"/>
-
-
+            android:name=".SkorActivity"
+            android:label="Skor"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SkorEsaiActivity"
+            android:label="Skor"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label="Skor"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LoginActivity"
+            android:label="Login"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label="Login"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".DataSkor"
+            android:label="Skor"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label="Skor"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".DataSkorEsai"
+            android:label="Skor"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label="Skor"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SkorPrActivity"
+            android:label="Skor"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label="Skor"/>
-
-        <activity android:name=".ListQuiz"
-            android:screenOrientation="portrait"/>
-
-        <activity android:name=".ListQuizScore"
-            android:screenOrientation="portrait"/>
-
-        <activity android:name=".OnboardActivity"
-            android:screenOrientation="portrait"/>
-
-        <activity android:name=".FullscreenDemoActivity"
-            android:screenOrientation="portrait"/>
-
-        <activity android:name=".KompetensiActivity"
-            android:screenOrientation="portrait"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ListQuizScore"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OnboardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FullscreenDemoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KompetensiActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
