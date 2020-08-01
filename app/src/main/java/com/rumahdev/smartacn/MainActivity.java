@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout button_tentang = (LinearLayout)findViewById(R.id.button_profil);
         LinearLayout button_kompetensi = (LinearLayout)findViewById(R.id.button_kompetensi);
         LinearLayout button_praktikum = (LinearLayout)findViewById(R.id.button_praktikum);
+        LinearLayout button_esai = findViewById(R.id.button_esai);
+        LinearLayout button_video = findViewById(R.id.button_video);
 
         Button button = (Button)findViewById(R.id.button);
 
@@ -58,29 +60,29 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // setup the alert builder
-                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                builder.setTitle("Lihat hasil skor");
-                // add a list
-                String[] layanan = {"Latihan", "PR"};
-                builder.setItems(layanan, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        switch (which) {
-                            case 0:
-                                Intent main = new Intent(MainActivity.this, DataSkor.class);
-                                startActivity(main);
-                                break;
-                            case 1:
-                                Intent main2 = new Intent(MainActivity.this, DataSkorEsai.class);
-                                startActivity(main2);
-                                break;
-                        }
-                    }
-                });
-                // create and show the alert dialog
-                AlertDialog dialog = builder.create();
-                dialog.show();
+//                // setup the alert builder
+//                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+//                builder.setTitle("Lihat hasil skor");
+//                // add a list
+//                String[] layanan = {"Latihan", "PR"};
+//                builder.setItems(layanan, new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+//                        switch (which) {
+//                            case 0:
+//                                Intent main = new Intent(MainActivity.this, DataSkor.class);
+//                                startActivity(main);
+//                                break;
+//                            case 1:
+//                                Intent main2 = new Intent(MainActivity.this, DataSkorEsai.class);
+//                                startActivity(main2);
+//                                break;
+//                        }
+//                    }
+//                });
+//                // create and show the alert dialog
+//                AlertDialog dialog = builder.create();
+//                dialog.show();
             }
         });
 
@@ -97,9 +99,9 @@ public class MainActivity extends AppCompatActivity {
         button_latihan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent main = new Intent(MainActivity.this, LoginActivity.class);
-                main.putExtra("id","latihan");
-                startActivity(main);
+//                Intent main = new Intent(MainActivity.this, LoginActivity.class);
+//                main.putExtra("id","latihan");
+//                startActivity(main);
             }
         });
 
@@ -149,6 +151,26 @@ public class MainActivity extends AppCompatActivity {
                 Intent main = new Intent(MainActivity.this, DetailMateriActivity.class);
                 main.putExtra("id","ten");
                 main.putExtra("judul", "Tentang");
+                startActivity(main);
+            }
+        });
+
+        button_esai.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent main = new Intent(MainActivity.this, DetailMateriActivity.class);
+                main.putExtra("id","esai");
+                main.putExtra("judul", "Esai");
+                startActivity(main);
+            }
+        });
+
+        button_video.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent main = new Intent(MainActivity.this, DetailMateriActivity.class);
+                main.putExtra("id","video");
+                main.putExtra("judul", "Video");
                 startActivity(main);
             }
         });

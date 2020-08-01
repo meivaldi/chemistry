@@ -98,6 +98,16 @@ public class DetailMateriActivity extends AppCompatActivity {
             materi.loadUrl("file:///android_asset/contoh_soal.html");
         }
 
+        else if (id.equals("esai")) {
+            toolbar.setTitle(judul);
+            materi.loadUrl("file:///android_asset/essai.html");
+        }
+
+        else if (id.equals("video")) {
+            toolbar.setTitle(judul);
+            materi.loadUrl("file:///android_asset/video.html");
+        }
+
         else{
             toolbar.setTitle("Tentang");
             materi.loadUrl("file:///android_asset/biodata.html");
