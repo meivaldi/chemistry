@@ -1,7 +1,9 @@
 package com.rumahdev.smartacn;
 
+import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -10,8 +12,10 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.synnapps.carouselview.ImageListener;
 
@@ -19,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
 
     LinearLayout button_hasil;
+    TextView title;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
 
         LinearLayout button_materi = (LinearLayout)findViewById(R.id.button_materi);
         LinearLayout button_pr = (LinearLayout)findViewById(R.id.button_pr);
@@ -38,6 +42,36 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout button_video = findViewById(R.id.button_video);
 
         Button button = (Button)findViewById(R.id.button);
+        title = findViewById(R.id.titleBar);
+
+        final Dialog changeNameDialog = new Dialog(MainActivity.this);
+        changeNameDialog.setCancelable(false);
+        changeNameDialog.setContentView(R.layout.name_dialog);
+        changeNameDialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+
+        final EditText nameET = changeNameDialog.findViewById(R.id.name);
+        Button start = changeNameDialog.findViewById(R.id.start);
+
+        start.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String name = nameET.getText().toString();
+                title.setText("Selamat Datang " + name);
+                changeNameDialog.dismiss();
+
+                SharedPreferences.Editor editor = getSharedPreferences("hani", MODE_PRIVATE).edit();
+                editor.putString("name", name);
+                editor.apply();
+            }
+        });
+
+        String name = getSharedPreferences("hani", MODE_PRIVATE).getString("name", "null");
+
+        if (name.equals("null")) {
+            changeNameDialog.show();
+        } else {
+            title.setText("Selamat Datang " + name);
+        }
 
         button_kompetensi.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -118,7 +152,7 @@ public class MainActivity extends AppCompatActivity {
         button_materi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent main = new Intent(MainActivity.this, DetailMateriActivity.class);
+                Intent main = new Intent(MainActivity.this, MateriActivity.class);
                 main.putExtra("id","mat");
                 main.putExtra("judul", "Materi");
                 startActivity(main);

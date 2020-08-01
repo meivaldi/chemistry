@@ -126,5 +126,47 @@ Maka rumus dan nama senyawa kimia yang benar adalah
     <string name="soal_3">3.	Sebutkan tiga contoh larutan elektrolit dan tiga contoh larutan nonelektrolit dalam kehidupan sehari-hari!</string>
     <string name="soal_4">4.	Mengapa larutan elektrolit dapat menghantar listrik, sedangkan larutan nonelektrolit tidak?</string>
     <string name="soal_5">5.	Apakah semua senyawa kovalen bersifat elektrolit? Jelaskan!</string>
+    
+    <string name="poin_a">A.   KONSEP LAJU REAKSI</string>
+    <string name="poin_a_content">Reaksi kimia banyak terjadi di sekitar kita dengan kecepatan yang berbeda-beda. Apa saja contoh reaksi-reaksi tersebut? Mari kita lakukan kegiatan berikut untuk menentukan jawabannya.</string>
+    <string name="text1">
+        1.	Lakukan pengamatan dengan teliti dan objektif mengenai peristiwa-peristiwa yang menunjukkan reaksi kimia dalam gambar berikut.
+    </string>
+
+    <string name="text2">
+        2.	Apa saja  peristiwa-peristiwa pada gambar tersebut
+    </string>
+
+    <string name="text3">
+        3.	Dengan memperhatikan gambar-gambar berikut,.
+    </string>
+
+    <string name="text3a">
+        a.	Reaksi apa sajakah yang berjalan cepat dan reaksi apa sajakah yang berjalan lambat?
+    </string>
+
+    <string name="text3b">
+        b.	Mengapa ada reaksi yang berjalan cepat dan berjalan lambat?
+    </string>
+
+    <string name="text3c">
+        c.	Menurut anda, faktor apa sajakah yang  memengaruhi kecepatan reaksi?
+    </string>
+
+    <string name="text4">
+        Berubangnya lapisan ozon merupakan salah satu contoh peristiwa kimia yang berjalan lambat. Lapisan ozon di stratosfer menyerap radiasi
+        ultraviolet yang berbahaya dari radiasi matahari. Bertambahnya penggunaan
+        bahan kimia buaan manusia yang mengandung senyawa klorin dan bromin ikut andil daam merusak molekul ozon pada lapisan ini.
+    </string>
+
+    <string name="text5">
+        Pada lapisan stratosfer radiasi matahari memecahkan molekul gas yang mengandung klorin atau bromin dan menghasilkan radikal klorin
+        dan bromin. Melalui reaksi berantai, radikal-radikal klorin dan bromin memecahkan ikatan gas-gas lain di atmosfer, termasuk ozon.
+        Molekul-molekul ozon terpecah menjadi oksigen dan radikal oksigen sehingga reaksi ini akan mengurangi konsentrasi ozon di stratosfer.
+        Sesuai konsep aju reaksi, dengan menaikkan konsentrassi reaktan, maka aju reaksi akan semakin tinggi sehingga semakin banyak senyawa
+        yang mengandung klorin dan bromin. Akibatnya kerusakan lapisan ozon semakin parah. Oleh karena itu, sebagai generasi yang peduli
+        lingkungan dan kreatif alangkah baiknya jika anda mengurangi pemakaian produk-produk yang mengandung senyawa klor dan brom misalnya
+        mengurangi pemakaian hairspray. Selain mengurangi pemakaian hairspray, apakah tindakan lain yang dapat anda lakukan?
+    </string>
 
 </resources>

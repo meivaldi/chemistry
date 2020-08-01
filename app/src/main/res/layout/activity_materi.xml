@@ -24,8 +24,9 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-            <include layout="@layout/content_main_materi" />
+        <include layout="@layout/content_detail_materi2" />
     </ScrollView>
+
 
 
 </android.support.design.widget.CoordinatorLayout>
